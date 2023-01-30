@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-24T10:00:03 IST" name="Default suite" finished-at="2023-01-24T10:00:17 IST" duration-ms="14320">
+    <groups>
+    </groups>
+    <test started-at="2023-01-24T10:00:03 IST" name="Default test" finished-at="2023-01-24T10:00:17 IST" duration-ms="14320">
+      <class name="Modul1_PlanetSuperHeroeslogin_Signup_Test.HeroWelCompageTest">
+        <test-method is-config="true" signature="opnBr()[pri:0, instance:Modul1_PlanetSuperHeroeslogin_Signup_Test.HeroWelCompageTest@6731787b]" started-at="2023-01-24T10:00:03 IST" name="opnBr" finished-at="2023-01-24T10:00:13 IST" duration-ms="10648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opnBr -->
+        <test-method signature="verifytitle()[pri:0, instance:Modul1_PlanetSuperHeroeslogin_Signup_Test.HeroWelCompageTest@6731787b]" started-at="2023-01-24T10:00:13 IST" name="verifytitle" finished-at="2023-01-24T10:00:17 IST" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method signature="login()[pri:0, instance:Modul1_PlanetSuperHeroeslogin_Signup_Test.HeroWelCompageTest@6731787b]" started-at="2023-01-24T10:00:17 IST" name="login" finished-at="2023-01-24T10:00:17 IST" depends-on-methods="Modul1_PlanetSuperHeroeslogin_Signup_Test.HeroWelCompageTest.verifytitle" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Modul1_PlanetSuperHeroeslogin_Signup_Test.HeroWelCompageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
