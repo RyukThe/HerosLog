@@ -10,9 +10,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
 public class BaseClass
 {
 	public WebDriver m;
+	
+	public ExtentReports extent;
+	public ExtentSparkReporter spark;
+	public ExtentTest test;
+	
 	public void openBrowser() throws IOException
 	{
 		m=new ChromeDriver();
@@ -37,6 +46,11 @@ public class BaseClass
 		}
 		m.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		m.get(UtilityClass.getPropertyFileData("URL"));
+	}
+	
+	public void getReport(String filename)
+	{
+		
 	}
 	
 	

@@ -75,6 +75,9 @@ public class UtilityClass
 		Logger logger= (Logger) LoggerFactory.getLogger(clazz);
 		return logger;
 	}
+	
+	
+	
 
 
 
