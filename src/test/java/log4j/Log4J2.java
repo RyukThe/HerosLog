@@ -13,6 +13,7 @@ public class Log4J2
 	System.out.println("keilo");
 	log.debug("debug this ");
 	
+	
 	log.always();
 		
 	}
