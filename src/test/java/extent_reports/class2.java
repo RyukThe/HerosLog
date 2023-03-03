@@ -41,6 +41,7 @@ public class class2
 		htmlreport.config().setDocumentTitle("Extent Repoter class2");
 		//
 	
+		System.out.println("Hello");
 	}
 	
 	@Test
