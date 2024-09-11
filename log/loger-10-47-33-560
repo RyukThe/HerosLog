@@ -1,0 +1,10 @@
+10:47:33.536 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+10:47:33.538 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+10:47:33.539 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2113929216 bytes (maybe)
+10:47:33.540 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\daduk\AppData\Local\Temp (java.io.tmpdir)
+10:47:33.540 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+10:47:33.541 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+10:47:33.542 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+10:47:33.543 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+10:47:33.545 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+10:47:33.546 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false

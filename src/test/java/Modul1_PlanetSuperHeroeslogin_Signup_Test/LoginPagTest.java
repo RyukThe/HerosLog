@@ -19,7 +19,7 @@ import Modul1_PlanetSuperHeroeslogin_Signup_Page.SignUp_Login_Page;
 
 public class LoginPagTest extends BaseClass
 {
-
+//	<!-- This is comlsory to establish the connection we have to run this test class by using testng.xml file   -->
 
 	SignUp_Login_Page sgin;
 	

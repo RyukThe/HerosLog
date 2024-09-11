@@ -9,9 +9,7 @@
           <include name="flus"/>
           <include name="m4"/>
           <include name="m2"/>
-          <include name="m5"/>
           <include name="startRepoerts"/>
-          <include name="m3"/>
         </methods>
       </class> <!-- extent_reports.class2 -->
     </classes>

@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -24,7 +25,9 @@ public class BaseClass
 	
 	public void openBrowser() throws IOException
 	{
-		m=new ChromeDriver();
+		ChromeOptions op= new ChromeOptions();
+		op.addArguments("--remote-allow-origins=*");
+		m=new ChromeDriver(op);
 		m.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		m.get(UtilityClass.getPropertyFileData("URL"));
 	}
